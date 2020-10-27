@@ -29,3 +29,5 @@ function goToNewPage(dropdownlist)
  window.open(url);
  }
  }
+
+ $('#submit').click(goToNewPage(document.dropdown[1].list))
