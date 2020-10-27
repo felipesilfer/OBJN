@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<p><span style="text-decoration: underline;"><strong>PAGAMENTOS VIA PAGSEGURO:</strong></span></p>
+<p><img src="https://felipesilfer.github.io/OBJN/img/pagseguro-logo.png"/></p>
+<p>Para pagamentos via PagSeguro, selecione abaixo:</p>
+<div>
+	<p>
+		<input id="bttSUB" class="typeBtt" onclick="spoilerBtt('SUB');" type="button" value="SUBMISSÃO" />
+		<input id="bttPUB" class="typeBtt" onclick="spoilerBtt('PUB');" type="button" value="PUBLICAÇÃO" />
+	</p>
+	<div id="SUB" class="spoiler" style="display: none;">
+		<form name="dropdown">
+			<select name="list" accesskey="E">
+				<option value="" selected>Taxa de Submissão</option>
+				<option value="https://pag.ae/7V6GfrDzo/">SUBMISSÃO SHORT R$ 230,00</option>
+				<option value="https://pag.ae/7V6GfKGsG/">SUBMISSÃO FULL R$ 330,00</option>
+			</select>
+			<input type="button" onclick="goToNewPage(document.dropdown[0].list)" value="Pagar" />
+		</form>
+	</div>
+	<div id="PUB" class="spoiler" style="display: none;">
+		<form name="dropdown">
+			<select name="list" accesskey="E">
+				<option value="" selected>Taxa de Publicação</option>
+				<option value="https://pag.ae/7V6GgnZX3/">PUBLICAÇÃO SHORT R$ 400,00 </option>
+				<option value="https://pag.ae/7V6Gf-NCG/">PUBLICAÇÃO FULL R$ 990,00 </option>
+			</select>
+			<input type=button onclick="goToNewPage(document.dropdown[1].list)" value="Pagar" />
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+</body>
+
+</html>
