@@ -30,6 +30,6 @@ function goToNewPage(dropdownlist)
  }
  }
 
- $('#submit').onclick(goToNewPage(document.dropdown[1].list));
- $('#bttSUB').onclick(spoilerBtt('SUB'));
- $('#bttPUB').onclick(spoilerBtt('PUB'));
+ document.getElementById("submit").onclick = goToNewPage(document.dropdown[1].list);
+ document.getElementById("bttSUB").onclick = spoilerBtt('SUB');
+ document.getElementById("bttPUB").onclick = spoilerBtt('PUB');
