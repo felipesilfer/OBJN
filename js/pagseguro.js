@@ -31,5 +31,8 @@ function goToNewPage(dropdownlist)
  }
 
  document.getElementById("submit").onclick = goToNewPage(document.dropdown[1].list);
+ document.getElementById("submit").setAttribute("onclick'","goToNewPage(document.dropdown[1].list);");
  document.getElementById("bttSUB").onclick = spoilerBtt('SUB');
+ document.getElementById("bttSUB").setAttribute("onclick","spoilerBtt('SUB');");
  document.getElementById("bttPUB").onclick = spoilerBtt('PUB');
+ document.getElementById("bttPUB").setAttribute("onclick","spoilerBtt('PUB');");
