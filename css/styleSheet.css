@@ -1,0 +1,36 @@
+/* Componente Home Page Behind Image */
+
+.navbar-logo img {
+    max-height: 150px;
+}
+/* ------------------------ */
+
+/* Componente Home Page Issue */
+
+.homepage-issue-identifier {
+    font-size: 3rem;
+}
+
+.h5  {
+    font-size: 2rem;
+}
+
+.h6 {
+    font-size: 1.5rem;
+}
+/* ------------------------ */
+
+/* Componente Article Summary Galleys Button */
+
+.btn-primary {
+    margin-bottom: 0.3em;
+}
+/* ------------------------ */
+
+/* Componente Article Summary Galleys Button */
+
+.row.homepage-announcements {
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+/* ------------------------ */
