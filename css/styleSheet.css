@@ -18,6 +18,10 @@
 .h6 {
     font-size: 1.5rem;
 }
+
+.homepage-issue-published, .page-issue-date, .article-details-published {
+    display: none;
+}
 /* ------------------------ */
 
 /* Componente Article Summary Galleys Button */
